@@ -1,0 +1,46 @@
+{
+ "rollouts": [
+  {
+   "file": "replay.json",
+   "carry_m": 1.45,
+   "turn_deg": 157,
+   "label": "1.5 m, 157\u00b0 turn",
+   "motion": "sub10_largebox_083_original"
+  },
+  {
+   "file": "replay_1.json",
+   "carry_m": 1.44,
+   "turn_deg": 55,
+   "label": "1.4 m, 55\u00b0 turn",
+   "motion": "sub3_largebox_003_original"
+  },
+  {
+   "file": "replay_2.json",
+   "carry_m": 1.58,
+   "turn_deg": 38,
+   "label": "1.6 m, 38\u00b0 turn",
+   "motion": "sub3_largebox_005_original"
+  },
+  {
+   "file": "replay_3.json",
+   "carry_m": 1.42,
+   "turn_deg": 128,
+   "label": "1.4 m, 128\u00b0 turn",
+   "motion": "sub10_largebox_082_original"
+  },
+  {
+   "file": "replay_4.json",
+   "carry_m": 1.25,
+   "turn_deg": 106,
+   "label": "1.2 m, 106\u00b0 turn",
+   "motion": "sub3_largebox_028_original"
+  },
+  {
+   "file": "replay_5.json",
+   "carry_m": 0.5,
+   "turn_deg": 47,
+   "label": "0.5 m, 47\u00b0 turn",
+   "motion": "sub3_largebox_016_original"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+build/
+build_media.log
+__pycache__/
+
+# Self-hosted copy of the film: on GitHub Pages it plays from YouTube, so it is not published.
+static/videos/diplo_video.mp4
+
+# Media and data of sections that were removed from the page (kept on disk, not published).
+static/videos/baselines.mp4
+static/posters/baselines.jpg
+static/videos/cz/base_*
+static/posters/cz/base_*
+static/thumbs/base_*
+static/videos/dappo.mp4
+static/posters/dappo.jpg
+static/videos/data.mp4
+static/posters/data.jpg
+static/videos/dppo_real.mp4
+static/posters/dppo_real.jpg
+static/videos/dppo_sim.mp4
+static/posters/dppo_sim.jpg
+static/videos/plan.mp4
+static/videos/pretrain.mp4
+static/videos/prog_pick.mp4
+static/posters/prog_pick.jpg
+static/videos/prog_turn.mp4
+static/posters/prog_turn.jpg
+static/videos/sdpo.mp4
+static/posters/sdpo.jpg
+static/data/denoise_cmp*.json
+static/data/goal_map.json

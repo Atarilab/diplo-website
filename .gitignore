@@ -29,3 +29,6 @@ static/videos/sdpo.mp4
 static/posters/sdpo.jpg
 static/data/denoise_cmp*.json
 static/data/goal_map.json
+
+# Build and export scripts: kept locally, not needed to view the site.
+tools/

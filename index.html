@@ -559,6 +559,7 @@ input[type="range"]::-moz-range-thumb { width: 16px; height: 16px; border: 0; bo
       <a class="btn" data-link="paper" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M8.5 13h7M8.5 16.5h7"/></svg>Paper <span class="soon" hidden>soon</span></a>
       <a class="btn" data-link="arxiv" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg>arXiv <span class="soon" hidden>soon</span></a>
       <a class="btn" data-link="code" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M8.5 7 3.5 12l5 5M15.5 7l5 5-5 5"/></svg>Code <span class="soon" hidden>soon</span></a>
+      <a class="btn" data-link="dataset" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><ellipse cx="12" cy="5.5" rx="7" ry="2.5"/><path d="M5 5.5v13c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-13M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5"/></svg>Dataset <span class="soon" hidden>soon</span></a>
       <a class="btn primary" href="#film"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>Watch the film</a>
       <a class="btn" href="#bibtex">BibTeX</a>
     </div>
@@ -856,7 +857,7 @@ input[type="range"]::-moz-range-thumb { width: 16px; height: 16px; border: 0; bo
 <script>
 (() => {
   // Fill in when they exist; a link left empty shows as "soon".
-  const LINKS = { paper: "https://arxiv.org/pdf/2610.24847", arxiv: "https://arxiv.org/abs/2610.24847", code: "" };
+  const LINKS = { paper: "https://arxiv.org/pdf/2610.24847", arxiv: "https://arxiv.org/abs/2610.24847", code: "", dataset: "https://huggingface.co/datasets/Atarilab/diplo-dataset" };
 
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const $ = (s, r = document) => r.querySelector(s);

@@ -1,6 +1,6 @@
 # DiPLO: Self-distilled Diffusion Planning for Loco-manipulation
 
-Project page: https://atarilab.github.io/diplo-website/ · Paper: https://arxiv.org/abs/2610.24847
+Project page: https://atarilab.github.io/diplo-website/ · Paper: https://arxiv.org/abs/2610.24847 · Dataset: https://huggingface.co/datasets/Atarilab/diplo-dataset
 
 ## Citation
 
